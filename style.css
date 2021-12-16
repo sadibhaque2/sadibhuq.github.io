@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(/My_Website/IMAGES/22.jpg);
+    margin: 0;
+    padding: 0;
+    background-size:cover;
+    background-position: center center;
+    height: auto;
+    font-weight: 700;
+}
+
+ /* Navbar */
+
+
+
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+nav{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-flex;
+}
+nav ul li  a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: fira sans;
+    margin-left: 40px;
+    margin-right:40px;
+    padding-left:10px;
+    padding-right:10px;
+    color:rgba(0, 0, 0, 0.692) ;
+    transition: 0.3s;
+    border: rgba(0, 0, 0, 0.692) ;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    color: rgba(0, 0, 0, 0.692);
+    background-color:rgb(255, 255, 255) ;
+    transform: translateX(-10px);
+    border: solid #af3636 3px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #af3636, 0 0 30px rgba(0, 0, 0, 0.692);
+}
+.activee a{
+    color: rgba(0, 0, 0, 0.692);
+    background-color:rgb(255, 255, 255) ;
+    border-bottom: solid #af3636 5px;
+    border-radius: 1px; 
+}
+    
+.logo1{
+    padding-top:20px ;
+    height: 120px;
+}
+
+ /* Main Body */
+
+
+.body-part-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+}
+
+.img1{
+    height:300px;
+    /* clip-path: circle(); */
+    cursor: pointer;
+    border: 10px #af3636 solid;
+    border-radius: 5px;
+    margin-top: 95px;
+}
+
+.hhhhh1{
+    font-size: 95px;
+}
+
+.hiiamsadib{
+    font-family: fira sans;
+    color: rgba(0, 0, 0, 0.733);
+    word-spacing: 7px;
+    line-height: 1.5;
+    margin-left: 50px;
+}
+
+.body-part-2{
+    justify-content: center;
+    font-size: 30px;
+    font-family:fira sans;
+    word-spacing: 2px;
+    line-height: 50px;
+    padding: 0% 18%;
+}
+
+/* footer */
+
+#footer{
+    flex: 1;
+    text-align: center;
+    margin-top: 0px;
+}
+footer ul li{
+    list-style: none;
+    display: inline-flex;
+}
+footer ul li a{
+    text-decoration: none;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-right:40px;
+    padding-left:10px;
+    margin-top: 20px;
+    padding-right:10px;
+    color:rgba(0, 0, 0, 0.692) ;
+    transition: 0.3s;
+    background:none
+}
+footer ul li a:hover{
+    transform: translateY(-20px);
+}
+.copyright{
+    font-family:fira sans ;
+    padding: 10px;padding-left:35px ;
+    margin-top: 30px;
+    color:#af3636   ;
+}
+
